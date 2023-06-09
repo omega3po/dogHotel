@@ -32,14 +32,11 @@ struct Doggytel: View {
                     }
                 }
             }
-            
-            Button {
-                viewModel.getHotel()
-            } label: {
-                Text("Button")
-            }
         }
-        .onAppear(perform: getAccess)
+        .onAppear() {
+            getAccess()
+            viewModel.getHotel()
+        }
     }
     
     func getAccess() {

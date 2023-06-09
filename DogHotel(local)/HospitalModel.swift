@@ -11,4 +11,6 @@ struct HospitalModel: Identifiable, Codable{
     var id: UUID
     var hospitalName: String
     var hospitalAddress: String
+    var phoneNumber: String
+    var url: URL
 }

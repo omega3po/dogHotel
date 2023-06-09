@@ -11,4 +11,6 @@ struct HotelModel: Identifiable, Codable {
     var id: UUID
     var hotelName: String
     var hotelAdress: String
+    var phoneNumber: String
+    var url: URL
 }
