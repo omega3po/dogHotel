@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E501567329FC065C003B5D53 /* NameAndType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E501567229FC065C003B5D53 /* NameAndType.swift */; };
+		E501567529FC0BAF003B5D53 /* DogAge.swift in Sources */ = {isa = PBXBuildFile; fileRef = E501567429FC0BAF003B5D53 /* DogAge.swift */; };
+		E540D1EF29DFC1560075CEE1 /* DogHotel_local_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540D1EE29DFC1560075CEE1 /* DogHotel_local_App.swift */; };
+		E540D1F129DFC1560075CEE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E540D1F029DFC1560075CEE1 /* ContentView.swift */; };
+		E540D1F329DFC1570075CEE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540D1F229DFC1570075CEE1 /* Assets.xcassets */; };
+		E540D1F629DFC1570075CEE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E540D1F529DFC1570075CEE1 /* Preview Assets.xcassets */; };
+		E54868F42A21A761002A8A5B /* NoImportantPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54868F32A21A761002A8A5B /* NoImportantPart.swift */; };
+		E54868F62A21AC98002A8A5B /* DogPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54868F52A21AC98002A8A5B /* DogPhoto.swift */; };
+		E56BCB8D2A1437FE008FEF7B /* DogSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = E56BCB8C2A1437FE008FEF7B /* DogSize.swift */; };
+		E585BE432A2DF23200327EB6 /* FuckingTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585BE422A2DF23200327EB6 /* FuckingTest.swift */; };
+		E585BE452A2EB8AD00327EB6 /* SuperTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585BE442A2EB8AD00327EB6 /* SuperTextField.swift */; };
+		E58B74EE29FB62FA006CB8AD /* PhpickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74ED29FB62FA006CB8AD /* PhpickerController.swift */; };
+		E58B74F129FB7082006CB8AD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F029FB7082006CB8AD /* Util.swift */; };
+		E58B74F329FB7675006CB8AD /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F229FB7675006CB8AD /* MainView.swift */; };
+		E58B74F629FB78AE006CB8AD /* Doggypital.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F529FB78AE006CB8AD /* Doggypital.swift */; };
+		E58B74F829FB78BD006CB8AD /* MyDog.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F729FB78BD006CB8AD /* MyDog.swift */; };
+		E58B74FA29FB78C7006CB8AD /* Doggytel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F929FB78C7006CB8AD /* Doggytel.swift */; };
+		E59E981429E8ED9000237553 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981329E8ED9000237553 /* RegisterView.swift */; };
+		E59E981629E8FC2600237553 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981529E8FC2600237553 /* LoginView.swift */; };
+		E5F673BB2A0DDA21000D8AA0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */; };
+		E5F673BD2A0DDC84000D8AA0 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */; };
+		E5F673BF2A0DEE36000D8AA0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BE2A0DEE36000D8AA0 /* MapView.swift */; };
+		E5F673C12A0F333C000D8AA0 /* DogModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673C02A0F333C000D8AA0 /* DogModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E501567229FC065C003B5D53 /* NameAndType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAndType.swift; sourceTree = "<group>"; };
+		E501567429FC0BAF003B5D53 /* DogAge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogAge.swift; sourceTree = "<group>"; };
+		E540D1EB29DFC1560075CEE1 /* DogHotel(local).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DogHotel(local).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E540D1EE29DFC1560075CEE1 /* DogHotel_local_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogHotel_local_App.swift; sourceTree = "<group>"; };
+		E540D1F029DFC1560075CEE1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E540D1F229DFC1570075CEE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E540D1F529DFC1570075CEE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E54868F32A21A761002A8A5B /* NoImportantPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoImportantPart.swift; sourceTree = "<group>"; };
+		E54868F52A21AC98002A8A5B /* DogPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogPhoto.swift; sourceTree = "<group>"; };
+		E56BCB8C2A1437FE008FEF7B /* DogSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSize.swift; sourceTree = "<group>"; };
+		E585BE422A2DF23200327EB6 /* FuckingTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuckingTest.swift; sourceTree = "<group>"; };
+		E585BE442A2EB8AD00327EB6 /* SuperTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperTextField.swift; sourceTree = "<group>"; };
+		E58B74ED29FB62FA006CB8AD /* PhpickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhpickerController.swift; sourceTree = "<group>"; };
+		E58B74F029FB7082006CB8AD /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		E58B74F229FB7675006CB8AD /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E58B74F529FB78AE006CB8AD /* Doggypital.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doggypital.swift; sourceTree = "<group>"; };
+		E58B74F729FB78BD006CB8AD /* MyDog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDog.swift; sourceTree = "<group>"; };
+		E58B74F929FB78C7006CB8AD /* Doggytel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doggytel.swift; sourceTree = "<group>"; };
+		E59E981329E8ED9000237553 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		E59E981529E8FC2600237553 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
+		E5F673BE2A0DEE36000D8AA0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E5F673C02A0F333C000D8AA0 /* DogModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E540D1E829DFC1560075CEE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E540D1E229DFC1560075CEE1 = {
+			isa = PBXGroup;
+			children = (
+				E540D1ED29DFC1560075CEE1 /* DogHotel(local) */,
+				E540D1EC29DFC1560075CEE1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E540D1EC29DFC1560075CEE1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E540D1EB29DFC1560075CEE1 /* DogHotel(local).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E540D1ED29DFC1560075CEE1 /* DogHotel(local) */ = {
+			isa = PBXGroup;
+			children = (
+				E58B74F229FB7675006CB8AD /* MainView.swift */,
+				E58B74F429FB7898006CB8AD /* TabViews */,
+				E540D1EE29DFC1560075CEE1 /* DogHotel_local_App.swift */,
+				E5F673BE2A0DEE36000D8AA0 /* MapView.swift */,
+				E540D1F029DFC1560075CEE1 /* ContentView.swift */,
+				E59E981329E8ED9000237553 /* RegisterView.swift */,
+				E59E981529E8FC2600237553 /* LoginView.swift */,
+				E56BCB872A1435A8008FEF7B /* CollectInfoViews */,
+				E5F673C02A0F333C000D8AA0 /* DogModel.swift */,
+				E540D1F229DFC1570075CEE1 /* Assets.xcassets */,
+				E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */,
+				E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */,
+				E540D1F429DFC1570075CEE1 /* Preview Content */,
+				E58B74ED29FB62FA006CB8AD /* PhpickerController.swift */,
+				E58B74F029FB7082006CB8AD /* Util.swift */,
+				E585BE422A2DF23200327EB6 /* FuckingTest.swift */,
+				E585BE442A2EB8AD00327EB6 /* SuperTextField.swift */,
+			);
+			path = "DogHotel(local)";
+			sourceTree = "<group>";
+		};
+		E540D1F429DFC1570075CEE1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E540D1F529DFC1570075CEE1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E56BCB872A1435A8008FEF7B /* CollectInfoViews */ = {
+			isa = PBXGroup;
+			children = (
+				E501567229FC065C003B5D53 /* NameAndType.swift */,
+				E501567429FC0BAF003B5D53 /* DogAge.swift */,
+				E56BCB8C2A1437FE008FEF7B /* DogSize.swift */,
+				E54868F32A21A761002A8A5B /* NoImportantPart.swift */,
+				E54868F52A21AC98002A8A5B /* DogPhoto.swift */,
+			);
+			path = CollectInfoViews;
+			sourceTree = "<group>";
+		};
+		E58B74F429FB7898006CB8AD /* TabViews */ = {
+			isa = PBXGroup;
+			children = (
+				E58B74F529FB78AE006CB8AD /* Doggypital.swift */,
+				E58B74F729FB78BD006CB8AD /* MyDog.swift */,
+				E58B74F929FB78C7006CB8AD /* Doggytel.swift */,
+			);
+			path = TabViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E540D1EA29DFC1560075CEE1 /* DogHotel(local) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E540D1F929DFC1570075CEE1 /* Build configuration list for PBXNativeTarget "DogHotel(local)" */;
+			buildPhases = (
+				E540D1E729DFC1560075CEE1 /* Sources */,
+				E540D1E829DFC1560075CEE1 /* Frameworks */,
+				E540D1E929DFC1560075CEE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DogHotel(local)";
+			productName = "DogHotel(local)";
+			productReference = E540D1EB29DFC1560075CEE1 /* DogHotel(local).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E540D1E329DFC1560075CEE1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E540D1EA29DFC1560075CEE1 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = E540D1E629DFC1560075CEE1 /* Build configuration list for PBXProject "DogHotel(local)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E540D1E229DFC1560075CEE1;
+			productRefGroup = E540D1EC29DFC1560075CEE1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E540D1EA29DFC1560075CEE1 /* DogHotel(local) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E540D1E929DFC1560075CEE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E540D1F629DFC1570075CEE1 /* Preview Assets.xcassets in Resources */,
+				E540D1F329DFC1570075CEE1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E540D1E729DFC1560075CEE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E59E981429E8ED9000237553 /* RegisterView.swift in Sources */,
+				E54868F62A21AC98002A8A5B /* DogPhoto.swift in Sources */,
+				E5F673BF2A0DEE36000D8AA0 /* MapView.swift in Sources */,
+				E58B74F329FB7675006CB8AD /* MainView.swift in Sources */,
+				E56BCB8D2A1437FE008FEF7B /* DogSize.swift in Sources */,
+				E58B74F829FB78BD006CB8AD /* MyDog.swift in Sources */,
+				E58B74EE29FB62FA006CB8AD /* PhpickerController.swift in Sources */,
+				E540D1F129DFC1560075CEE1 /* ContentView.swift in Sources */,
+				E59E981629E8FC2600237553 /* LoginView.swift in Sources */,
+				E54868F42A21A761002A8A5B /* NoImportantPart.swift in Sources */,
+				E5F673BB2A0DDA21000D8AA0 /* ViewModel.swift in Sources */,
+				E58B74F129FB7082006CB8AD /* Util.swift in Sources */,
+				E58B74FA29FB78C7006CB8AD /* Doggytel.swift in Sources */,
+				E5F673BD2A0DDC84000D8AA0 /* HotelModel.swift in Sources */,
+				E540D1EF29DFC1560075CEE1 /* DogHotel_local_App.swift in Sources */,
+				E585BE452A2EB8AD00327EB6 /* SuperTextField.swift in Sources */,
+				E5F673C12A0F333C000D8AA0 /* DogModel.swift in Sources */,
+				E501567329FC065C003B5D53 /* NameAndType.swift in Sources */,
+				E501567529FC0BAF003B5D53 /* DogAge.swift in Sources */,
+				E58B74F629FB78AE006CB8AD /* Doggypital.swift in Sources */,
+				E585BE432A2DF23200327EB6 /* FuckingTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E540D1F729DFC1570075CEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E540D1F829DFC1570075CEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E540D1FA29DFC1570075CEE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogHotel(local)/Preview Content\"";
+				DEVELOPMENT_TEAM = VCD5YL67WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "당신의 위치를 받아가겠습니다!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 사용하겠습니다";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DogHotel-local-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E540D1FB29DFC1570075CEE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DogHotel(local)/Preview Content\"";
+				DEVELOPMENT_TEAM = VCD5YL67WX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "당신의 위치를 받아가겠습니다!";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 사용하겠습니다";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.DogHotel-local-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E540D1E629DFC1560075CEE1 /* Build configuration list for PBXProject "DogHotel(local)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E540D1F729DFC1570075CEE1 /* Debug */,
+				E540D1F829DFC1570075CEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E540D1F929DFC1570075CEE1 /* Build configuration list for PBXNativeTarget "DogHotel(local)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E540D1FA29DFC1570075CEE1 /* Debug */,
+				E540D1FB29DFC1570075CEE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E540D1E329DFC1560075CEE1 /* Project object */;
+}
