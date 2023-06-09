@@ -12,7 +12,7 @@ import MapKit
 class ViewModel: ObservableObject {
     let locationManager: CLLocationManager = CLLocationManager()
     @Published var hotelList: [HotelModel] = []
-    @Published var hospitalList: [HospitalModel] = [HospitalModel(id: UUID(), hospitalName: "꿈사랑동물병원", hospitalAddress: "서울특별시", phoneNumber: "010-2929-2391", url: URL(string: "google.com")]
+    @Published var hospitalList: [HospitalModel] = [HospitalModel(id: UUID(), hospitalName: "꿈사랑동물병원", hospitalAddress: "서울특별시", phoneNumber: "010-2929-2391")]
     
     func getHotel() {
         var currentLocation: CLLocationCoordinate2D = locationManager.location?.coordinate ?? CLLocationCoordinate2D(latitude: 127.123, longitude: 36.345)
@@ -29,8 +29,10 @@ class ViewModel: ObservableObject {
             self.hotelList = [HotelModel]()
             for item in response.mapItems {
                 print(item)
-                if let name = item.placemark.name,let location = item.placemark.location, let phoneNumber = item.phoneNumber, let url = item.url {
-                    self.hotelList.append(HotelModel(id: UUID(), hotelName: name, hotelAdress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: phoneNumber, url: url))
+                if let name = item.placemark.name,let location = item.placemark.location, let phoneNumber = item.phoneNumber {
+                    self.hotelList.append(HotelModel(id: UUID(), hotelName: name, hotelAdress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: phoneNumber ?? ""))
+                } else {
+                    self.hotelList.append(HotelModel(id: UUID(), hotelName: item.placemark.name, hotelAdress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: ""))
                 }
             }
         }
@@ -49,8 +51,10 @@ class ViewModel: ObservableObject {
             }
             self.hospitalList = [HospitalModel]()
             for item in response.mapItems {
-                if let name = item.placemark.name,let location = item.placemark.location, let phoneNumber = item.phoneNumber, let url = item.url {
-                    self.hospitalList.append(HospitalModel(id: UUID(), hospitalName: name, hospitalAddress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: phoneNumber, url: url))
+                if let name = item.placemark.name,let location = item.placemark.location, let phoneNumber = item.phoneNumber{
+                    self.hospitalList.append(HospitalModel(id: UUID(), hospitalName: name, hospitalAddress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: phoneNumber))
+                } else {
+                    self.hospitalList.append(HospitalModel(id: UUID(), hospitalName: item.placemark.name, hospitalAddress: item.placemark.title ?? "서울 지구방위본부", phoneNumber: ""))
                 }
             }
         }
