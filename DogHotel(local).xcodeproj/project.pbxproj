@@ -26,6 +26,7 @@
 		E58B74FA29FB78C7006CB8AD /* Doggytel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58B74F929FB78C7006CB8AD /* Doggytel.swift */; };
 		E59E981429E8ED9000237553 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981329E8ED9000237553 /* RegisterView.swift */; };
 		E59E981629E8FC2600237553 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981529E8FC2600237553 /* LoginView.swift */; };
+		E5ACBBEC2A32C7A6006433A5 /* HospitalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACBBEB2A32C7A6006433A5 /* HospitalModel.swift */; };
 		E5F673BB2A0DDA21000D8AA0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */; };
 		E5F673BD2A0DDC84000D8AA0 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */; };
 		E5F673BF2A0DEE36000D8AA0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BE2A0DEE36000D8AA0 /* MapView.swift */; };
@@ -53,6 +54,7 @@
 		E58B74F929FB78C7006CB8AD /* Doggytel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doggytel.swift; sourceTree = "<group>"; };
 		E59E981329E8ED9000237553 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E59E981529E8FC2600237553 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E5ACBBEB2A32C7A6006433A5 /* HospitalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalModel.swift; sourceTree = "<group>"; };
 		E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
 		E5F673BE2A0DEE36000D8AA0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				E540D1F229DFC1570075CEE1 /* Assets.xcassets */,
 				E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */,
 				E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */,
+				E5ACBBEB2A32C7A6006433A5 /* HospitalModel.swift */,
 				E540D1F429DFC1570075CEE1 /* Preview Content */,
 				E58B74ED29FB62FA006CB8AD /* PhpickerController.swift */,
 				E58B74F029FB7082006CB8AD /* Util.swift */,
@@ -223,6 +226,7 @@
 				E5F673BB2A0DDA21000D8AA0 /* ViewModel.swift in Sources */,
 				E58B74F129FB7082006CB8AD /* Util.swift in Sources */,
 				E58B74FA29FB78C7006CB8AD /* Doggytel.swift in Sources */,
+				E5ACBBEC2A32C7A6006433A5 /* HospitalModel.swift in Sources */,
 				E5F673BD2A0DDC84000D8AA0 /* HotelModel.swift in Sources */,
 				E540D1EF29DFC1560075CEE1 /* DogHotel_local_App.swift in Sources */,
 				E585BE452A2EB8AD00327EB6 /* SuperTextField.swift in Sources */,
