@@ -27,6 +27,11 @@ struct Doggytel: View {
                                     .foregroundColor(.secondary)
                                 Spacer()
                             }
+                            NavigationLink {
+                                WebView(request: URLRequest(url: hotel.hotelURL))
+                            } label: {
+                                Text(hotel.phoneNumber)
+                            }
                         }
                         .padding()
                     }

@@ -12,4 +12,5 @@ struct HotelModel: Identifiable, Codable {
     var hotelName: String
     var hotelAdress: String
     var phoneNumber: String
+    var hotelURL: URL
 }

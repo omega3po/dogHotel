@@ -26,6 +26,16 @@ struct Doggypital: View {
                                     .foregroundColor(.secondary)
                                 Spacer()
                             }
+                            Button {
+                                print(hospital.hospitalURL)
+                            }label: {
+                                Text("URL Check")
+                            }
+                            NavigationLink {
+                                WebView(request: URLRequest(url: hospital.hospitalURL))
+                            } label: {
+                                Text(hospital.phoneNumber)
+                            }
                         }
                         .padding()
                     }
@@ -53,7 +63,14 @@ struct Doggypital: View {
         @unknown default:
             CLLocationManager().requestWhenInUseAuthorization()
         }
-    
+    }
+    private func callNumber(phoneNumber:String) {
+        if let phoneCallURL = URL(string: phoneNumber) {
+            let application:UIApplication = UIApplication.shared
+            if (application.canOpenURL(phoneCallURL)) {
+                application.open(phoneCallURL, options: [:], completionHandler: nil)
+            }
+        }
     }
 }
 

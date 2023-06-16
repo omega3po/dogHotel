@@ -27,6 +27,7 @@
 		E59E981429E8ED9000237553 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981329E8ED9000237553 /* RegisterView.swift */; };
 		E59E981629E8FC2600237553 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E981529E8FC2600237553 /* LoginView.swift */; };
 		E5ACBBEC2A32C7A6006433A5 /* HospitalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACBBEB2A32C7A6006433A5 /* HospitalModel.swift */; };
+		E5ACBBEE2A3C01AF006433A5 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ACBBED2A3C01AF006433A5 /* WebView.swift */; };
 		E5F673BB2A0DDA21000D8AA0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */; };
 		E5F673BD2A0DDC84000D8AA0 /* HotelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */; };
 		E5F673BF2A0DEE36000D8AA0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F673BE2A0DEE36000D8AA0 /* MapView.swift */; };
@@ -55,6 +56,8 @@
 		E59E981329E8ED9000237553 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		E59E981529E8FC2600237553 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		E5ACBBEB2A32C7A6006433A5 /* HospitalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HospitalModel.swift; sourceTree = "<group>"; };
+		E5ACBBED2A3C01AF006433A5 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		E5ACBBEF2A3C0364006433A5 /* DogHotel-local--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DogHotel-local--Info.plist"; sourceTree = SOURCE_ROOT; };
 		E5F673BA2A0DDA21000D8AA0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		E5F673BC2A0DDC84000D8AA0 /* HotelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelModel.swift; sourceTree = "<group>"; };
 		E5F673BE2A0DEE36000D8AA0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
@@ -91,8 +94,10 @@
 		E540D1ED29DFC1560075CEE1 /* DogHotel(local) */ = {
 			isa = PBXGroup;
 			children = (
+				E5ACBBEF2A3C0364006433A5 /* DogHotel-local--Info.plist */,
 				E58B74F229FB7675006CB8AD /* MainView.swift */,
 				E58B74F429FB7898006CB8AD /* TabViews */,
+				E5ACBBED2A3C01AF006433A5 /* WebView.swift */,
 				E540D1EE29DFC1560075CEE1 /* DogHotel_local_App.swift */,
 				E5F673BE2A0DEE36000D8AA0 /* MapView.swift */,
 				E540D1F029DFC1560075CEE1 /* ContentView.swift */,
@@ -214,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E59E981429E8ED9000237553 /* RegisterView.swift in Sources */,
+				E5ACBBEE2A3C01AF006433A5 /* WebView.swift in Sources */,
 				E54868F62A21AC98002A8A5B /* DogPhoto.swift in Sources */,
 				E5F673BF2A0DEE36000D8AA0 /* MapView.swift in Sources */,
 				E58B74F329FB7675006CB8AD /* MainView.swift in Sources */,
@@ -366,9 +372,9 @@
 				DEVELOPMENT_TEAM = VCD5YL67WX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DogHotel-local--Info.plist";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "당신의 위치를 받아가겠습니다!";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 사용하겠습니다";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -397,9 +403,9 @@
 				DEVELOPMENT_TEAM = VCD5YL67WX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DogHotel-local--Info.plist";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "당신의 위치를 받아가겠습니다!";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "사진을 사용하겠습니다";
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
